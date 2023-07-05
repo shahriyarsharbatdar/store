@@ -1,8 +1,8 @@
 package model;
 
 public class NonFood extends Goods {
-    public NonFood(int count, String id) {
-        super("nonFood", count, id);
+    public NonFood(int count) {
+        super("nonFood", count);
     }
 
     @Override
