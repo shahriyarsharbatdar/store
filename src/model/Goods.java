@@ -6,7 +6,7 @@ public abstract class Goods {
     protected String id;
     private static int COUNTER;
 
-    public Goods(String prefixId, int count, String id) {
+    public Goods(String prefixId, int count) {
         this.prefixId = prefixId;
         this.count = count;
         this.id = prefixId + "-" + COUNTER;
